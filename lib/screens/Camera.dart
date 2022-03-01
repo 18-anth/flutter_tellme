@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 
 class Camera extends StatelessWidget {
@@ -7,7 +9,7 @@ class Camera extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: Center(
-        child: Text("Hello World"),
+        child: Text("Hello Camera"),
       ),
     );
   }
